@@ -112,7 +112,7 @@ html{
     border-radius: 10px;
 }
 .food2{
-    background-color: blue;
+    background-color: cyan;
     border-radius: 10px;
 }
 .food3{
@@ -131,16 +131,7 @@ html{
     font-size: 35px;
     align-items: center;
 }
-/*#controls i{
-    padding: 25px;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #14ab03;
-    width: calc(100%/8 + 5.7px);
-    border-top: 4px solid #62d455;
-    border-right: 1px solid #62d455; 
-    border-left: 1px solid #62d455;
-}*/
+
 @media screen and (max-width: 800px){
     #wrapper{
         width: 90vmin;
@@ -149,6 +140,9 @@ html{
     #gameDetails{
         font-size: 1rem;
         padding: 15px 27px
+    }
+    #controls{
+        display: flex;
     }
     #controls i{
         padding: 15px 0;
